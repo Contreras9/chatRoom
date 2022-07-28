@@ -1,0 +1,28 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Contreras9/chatRoom.git"
+  },
+  "author": "H.Contreras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Contreras9/chatRoom/issues"
+  },
+  "homepage": "https://github.com/Contreras9/chatRoom#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
